@@ -1,0 +1,12 @@
+D:\Fontys Projects\WoodStock\Core\bin\Debug\net6.0\Core.deps.json
+D:\Fontys Projects\WoodStock\Core\bin\Debug\net6.0\Core.dll
+D:\Fontys Projects\WoodStock\Core\bin\Debug\net6.0\Core.pdb
+D:\Fontys Projects\WoodStock\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+D:\Fontys Projects\WoodStock\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fontys Projects\WoodStock\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+D:\Fontys Projects\WoodStock\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+D:\Fontys Projects\WoodStock\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+D:\Fontys Projects\WoodStock\Core\obj\Debug\net6.0\Core.dll
+D:\Fontys Projects\WoodStock\Core\obj\Debug\net6.0\refint\Core.dll
+D:\Fontys Projects\WoodStock\Core\obj\Debug\net6.0\Core.pdb
+D:\Fontys Projects\WoodStock\Core\obj\Debug\net6.0\ref\Core.dll
