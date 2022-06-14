@@ -32,10 +32,8 @@ namespace Core.Specifications
                         AddOrderBy(n => n.Name);
                         break;
                 }
-                
             }
         }
-
         public ProductsWithTypesAndBrandsSpecification(int id) : base(x => x.Id == id)
         {
             AddInclude(x => x.ProductType);

@@ -1,11 +1,6 @@
 <app-nav-bar></app-nav-bar>
 
 <div class="container" id="title">
-  <h1>Welcome to WoodStock</h1>
-  <ul>
-    <li class="list-unstyled" *ngFor="let product of products">
-      {{ product.name }}
-    </li>
-  </ul>
+  <app-shop></app-shop>
 </div>
 <router-outlet></router-outlet>
