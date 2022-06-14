@@ -37,3 +37,15 @@ li {
 #signup {
   margin-right: 10px;
 }
+
+a {
+  color: #343a40;
+
+  &.active {
+    color: orange;
+  }
+}
+
+.logo {
+  cursor: pointer;
+}
