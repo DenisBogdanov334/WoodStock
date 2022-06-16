@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Fontys Projects\\WoodStock\\api\\API.csproj": {}
+    "D:\\Fontys Projects\\WoodStock\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Fontys Projects\\WoodStock\\api\\API.csproj": {
+    "D:\\Fontys Projects\\WoodStock\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fontys Projects\\WoodStock\\api\\API.csproj",
+        "projectUniqueName": "D:\\Fontys Projects\\WoodStock\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Fontys Projects\\WoodStock\\api\\API.csproj",
+        "projectPath": "D:\\Fontys Projects\\WoodStock\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "D:\\Fontys Projects\\WoodStock\\api\\obj\\",
+        "outputPath": "D:\\Fontys Projects\\WoodStock\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -193,6 +193,10 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.5, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.45, )"
             }
           },
           "imports": [
