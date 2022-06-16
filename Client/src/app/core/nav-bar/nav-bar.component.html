@@ -13,9 +13,9 @@
       </li>
     </ul>
   </div>
-  <a class="position-relative">
+  <a class="position-relative" routerLink="/basket">
     <fa-icon [icon]="shoppinCartIcon" class="shoppingCart"></fa-icon>
-    <div class="cart-no">5</div>
+    <div *ngIf="(basket$ | async) as basket" class="cart-no">{{ basket.items.length }}</div>
   </a>
   <button href="#" class="btn btn-outline-secondary btn-lg" id="login">
     Login

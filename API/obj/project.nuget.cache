@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z7MJodadL90Bl0Of9TjkBVHisGtX+RyWtqKL0tlz2rLzL2/FmA9icSUJ5FztzYzLbYNNA51csO3qtFRT22lIBA==",
+  "dgSpecHash": "2pVnmICmCDlEktMeAfRwe1VACbNpq2kQFLnpVfNbYX8IuNjM76ylNUF/qcmVEGwfJJuUepqCnYuKS5rpnNM7GA==",
   "success": true,
-  "projectFilePath": "D:\\Fontys Projects\\WoodStock\\API\\API.csproj",
+  "projectFilePath": "D:\\Fontys Projects\\WoodStock\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gebruiker\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

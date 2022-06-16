@@ -11,6 +11,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./shop/shop.module').then((mod) => mod.ShopModule),
   },
+  {
+    path: 'basket',
+    loadChildren: () =>
+      import('./basket/basket.module').then((mod) => mod.BasketModule)
+  },
   { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 
