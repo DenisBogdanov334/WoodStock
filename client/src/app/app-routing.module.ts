@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { ProductDetailsComponent } from './shop/product-details/product-details.component';
-import { ShopComponent } from './shop/shop.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -14,7 +12,12 @@ const routes: Routes = [
   {
     path: 'basket',
     loadChildren: () =>
-      import('./basket/basket.module').then((mod) => mod.BasketModule)
+      import('./basket/basket.module').then((mod) => mod.BasketModule),
+  },
+  {
+    path: 'checkout',
+    loadChildren: () =>
+      import('./checkout/checkout.module').then((mod) => mod.CheckoutModule),
   },
   { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
