@@ -13,3 +13,6 @@ D:\Fontys Projects\WoodStock\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
 D:\Fontys Projects\WoodStock\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
 D:\Fontys Projects\WoodStock\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
 D:\Fontys Projects\WoodStock\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+D:\Fontys Projects\WoodStock\Infrastructure\bin\Debug\net6.0\Data\SeedData\brands.json
+D:\Fontys Projects\WoodStock\Infrastructure\bin\Debug\net6.0\Data\SeedData\products.json
+D:\Fontys Projects\WoodStock\Infrastructure\bin\Debug\net6.0\Data\SeedData\types.json

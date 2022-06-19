@@ -8,6 +8,6 @@ import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [LoginComponent, RegisterComponent],
-  imports: [CommonModule, AccountRoutingModule, SharedModule, FormsModule],
+  imports: [CommonModule, AccountRoutingModule, SharedModule, FormsModule,],
 })
 export class AccountModule {}

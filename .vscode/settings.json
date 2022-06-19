@@ -1,0 +1,30 @@
+{
+  "deploy.reloaded": {
+    "packages": [
+      {
+        "name": "Version 1.0.0",
+        "description": "Package version 1.0.0",
+
+        "files": ["publish/**"]
+      }
+    ],
+
+    "targets": [
+      {
+        "type": "sftp",
+        "name": "Linux",
+        "description": "SFTP folder",
+
+        "host": "188.166.45.17",
+        "port": 22,
+        "user": "root",
+        "password": "hjk10Y9zx3podecrazymuffin334D",
+
+        "dir": "/var/woodstock",
+        "mappings": {
+          "publish/**": "/"
+        }
+      }
+    ]
+  }
+}
