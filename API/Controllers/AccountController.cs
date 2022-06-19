@@ -14,22 +14,20 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class AccountController : ControllerBase
     {
-        private readonly UserManager<AppUser> _userManager;
+       private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly ITokenService _tokenService;
         private readonly IMapper _mapper;
-        public AccountController(UserManager<AppUser> userManager, 
-        SignInManager<AppUser> signInManager, 
-        ITokenService tokenService,
-        IMapper mapper)
+        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager,
+            ITokenService tokenService, IMapper mapper)
         {
-            this._tokenService = tokenService;
-            this._signInManager = signInManager;
-            this._userManager = userManager;
-            this._mapper = mapper;
+            _mapper = mapper;
+            _tokenService = tokenService;
+            _signInManager = signInManager;
+            _userManager = userManager;
         }
 
-       [Authorize]
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<UserDto>> GetCurrentUser()
         {
@@ -96,11 +94,6 @@ namespace API.Controllers
         [HttpPost("register")]
         public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
         {
-            if (CheckEmailExistsAsync(registerDto.Email).Result.Value)
-            {
-                return new BadRequestObjectResult("email adress is in use");
-            }
-
             var user = new AppUser
             {
                 DisplayName = registerDto.DisplayName,

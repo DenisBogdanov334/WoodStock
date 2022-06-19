@@ -15,11 +15,11 @@ const routes: Routes = [
       import('./basket/basket.module').then((mod) => mod.BasketModule),
   },
   {
-    path: 'checkout',
+    path: 'account',
     loadChildren: () =>
-      import('./checkout/checkout.module').then((mod) => mod.CheckoutModule),
+      import('./account/account.module').then((mod) => mod.AccountModule),
   },
-  { path: '**', redirectTo: '', pathMatch: 'full' },
+  { path: '**', redirectTo: 'not-found', pathMatch: 'full' },
 ];
 
 @NgModule({

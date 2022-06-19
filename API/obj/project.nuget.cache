@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fpif5W2zLnhtVJmdRHyb65ElIcU1/Q6IUid9WKEutrU3B+EKfGeJBbNiY6Co09sbcu9kO+q2QVwMYIpgQ0LxPg==",
+  "dgSpecHash": "o+XlgSuKe6QPT6SHkAGS3DbsYtIVLLEZ3JdwW6QhtgUPXpKIJ+r4Al8BuQt8+qWaXpKSqwPlQmdhIi3VonscaQ==",
   "success": true,
   "projectFilePath": "D:\\Fontys Projects\\WoodStock\\api\\API.csproj",
   "expectedPackageFiles": [
@@ -62,6 +62,8 @@
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Gebruiker\\.nuget\\packages\\npgsql\\6.0.4\\npgsql.6.0.4.nupkg.sha512",
+    "C:\\Users\\Gebruiker\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.4\\npgsql.entityframeworkcore.postgresql.6.0.4.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
